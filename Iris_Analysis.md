@@ -110,6 +110,8 @@ plt.show()
 
 **Output:** A bar chart displaying the mean values of SepalLengthCm, SepalWidthCm, PetalLengthCm, and PetalWidthCm.
 
+![Bar Chart](Bar%20Chart.png)
+
 ---
 
 ### 5.2 Line Chart
@@ -126,6 +128,8 @@ plt.show()
 ```
 
 **Output:** A line graph showing the sepal length measurements across all 150 samples in the dataset.
+
+![Line Chart](LINE%20CHART.png)
 
 ---
 
@@ -144,6 +148,8 @@ plt.show()
 
 **Output:** A histogram with 15 bins showing the frequency distribution of petal lengths, revealing bimodal patterns.
 
+![Histogram](HISTOGRAM.png)
+
 ---
 
 ### 5.4 Scatter Plot
@@ -160,6 +166,8 @@ plt.show()
 ```
 
 **Output:** A scatter plot revealing the positive correlation between sepal length and petal length measurements.
+
+![Scatter Plot](SCATTERPLOT.png)
 
 ---
 
@@ -178,6 +186,8 @@ plt.show()
 
 **Output:** Box plots for all four features showing median, quartiles, and outliers in the measurements.
 
+![Box Plot](BOX%20PLOT.png)
+
 ---
 
 ### 5.6 Heatmap
@@ -194,6 +204,8 @@ plt.show()
 
 **Output:** A color-coded correlation matrix with numerical values showing strong positive correlation between petal measurements.
 
+![Heatmap](HEATMAP-CORRELATION%20MATRIX.png)
+
 ---
 
 ### 5.7 Pair Plot (Optional)
@@ -206,6 +218,8 @@ plt.show()
 ```
 
 **Output:** A grid of scatter plots showing relationships between all feature pairs, color-coded by species.
+
+![Pair Plot](PAIR%20PLOT.png)
 
 ---
 
@@ -227,6 +241,8 @@ plt.show()
 
 **Output:** A scatter plot with three distinct clusters identified by K-Means algorithm, colored in viridis palette.
 
+![K-Means Cluster](k%20means%20cluster.png)
+
 ---
 
 ### 5.9 Facet Plot (Optional)
@@ -240,6 +256,8 @@ plt.show()
 ```
 
 **Output:** Three separate scatter plots (one for each species) showing sepal vs petal length relationships.
+
+![Facet Plot](FACET%20PLOT.png)
 
 ---
 
