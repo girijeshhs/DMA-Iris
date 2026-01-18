@@ -1,7 +1,45 @@
-# Iris Dataset Analysis and Visualization
+<div align="center">
+
+# DATA MINING AND ANALYSIS
+
+## Iris Dataset Analysis and Visualization
+
+---
+
+**Submitted By:**  
+**Girijesh S**  
+**Registration Number: RA2311026020008**
+
+**Submitted To:**  
+**SRM INSTITUTE OF SCIENCE AND TECHNOLOGY, RAMAPURAM**
+
+---
+
+**Date of Submission:** January 18, 2026
+
+</div>
+
+---
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Dataset Source](#dataset-source)
+3. [Importing Required Libraries](#1-importing-required-libraries)
+4. [Mounting Google Drive](#2-mounting-google-drive)
+5. [Loading the Dataset](#3-loading-the-dataset)
+6. [Data Preprocessing](#4-data-preprocessing)
+7. [Data Visualization](#5-data-visualization)
+8. [Conclusion](#conclusion)
+
+---
 
 ## Project Overview
-This project performs exploratory data analysis on the famous Iris dataset using various visualization techniques. The analysis includes statistical summaries and multiple chart types to understand the relationships between different flower measurements.
+This project performs exploratory data analysis on the famous Iris dataset using various visualization techniques. The analysis includes statistical summaries and multiple chart types to understand the relationships between different flower measurements across three species of Iris flowers (Setosa, Versicolor, and Virginica).
+
+## Dataset Source
+**Dataset:** Iris Dataset  
+**Source:** [Kaggle - UCI Machine Learning Repository](https://www.kaggle.com/datasets/uciml/iris?resource=download)  
+**Description:** The dataset contains 150 samples with 4 features (sepal length, sepal width, petal length, petal width) measured in centimeters.
 
 ---
 
@@ -70,6 +108,8 @@ plt.ylabel("Mean Value")
 plt.show()
 ```
 
+**Output:** A bar chart displaying the mean values of SepalLengthCm, SepalWidthCm, PetalLengthCm, and PetalWidthCm.
+
 ---
 
 ### 5.2 Line Chart
@@ -84,6 +124,8 @@ plt.xlabel("Index")
 plt.ylabel("Value")
 plt.show()
 ```
+
+**Output:** A line graph showing the sepal length measurements across all 150 samples in the dataset.
 
 ---
 
@@ -100,6 +142,8 @@ plt.ylabel("Frequency")
 plt.show()
 ```
 
+**Output:** A histogram with 15 bins showing the frequency distribution of petal lengths, revealing bimodal patterns.
+
 ---
 
 ### 5.4 Scatter Plot
@@ -114,6 +158,8 @@ plt.xlabel("Sepal Length")
 plt.ylabel("Petal Length")
 plt.show()
 ```
+
+**Output:** A scatter plot revealing the positive correlation between sepal length and petal length measurements.
 
 ---
 
@@ -130,6 +176,8 @@ plt.ylabel("Values")
 plt.show()
 ```
 
+**Output:** Box plots for all four features showing median, quartiles, and outliers in the measurements.
+
 ---
 
 ### 5.6 Heatmap
@@ -144,6 +192,8 @@ plt.title("Heatmap - Correlation Matrix")
 plt.show()
 ```
 
+**Output:** A color-coded correlation matrix with numerical values showing strong positive correlation between petal measurements.
+
 ---
 
 ### 5.7 Pair Plot (Optional)
@@ -154,6 +204,8 @@ Creates a **comprehensive grid of scatter plots** for all feature combinations, 
 sns.pairplot(df, hue="Species")
 plt.show()
 ```
+
+**Output:** A grid of scatter plots showing relationships between all feature pairs, color-coded by species.
 
 ---
 
@@ -173,6 +225,8 @@ plt.ylabel("Petal Width")
 plt.show()
 ```
 
+**Output:** A scatter plot with three distinct clusters identified by K-Means algorithm, colored in viridis palette.
+
 ---
 
 ### 5.9 Facet Plot (Optional)
@@ -184,6 +238,8 @@ g = sns.FacetGrid(df, col="Species")
 g.map(plt.scatter, "SepalLengthCm", "PetalLengthCm")
 plt.show()
 ```
+
+**Output:** Three separate scatter plots (one for each species) showing sepal vs petal length relationships.
 
 ---
 
@@ -200,6 +256,22 @@ This analysis successfully demonstrates various data visualization techniques ap
 
 These visualizations provide comprehensive insights into the dataset and showcase the power of data analysis tools in Python.
 
+### Key Findings:
+- **Strong positive correlation** exists between petal length and petal width
+- **Clear separation** between species based on petal measurements
+- **Bimodal distribution** observed in petal length histogram
+- **K-Means clustering** successfully identifies three distinct groups matching species
+
 ---
 
-**End of Analysis**
+<div align="center">
+
+**End of Report**
+
+---
+
+**Submitted By: Girijesh S**  
+**Registration Number: RA2311026020008**  
+**SRM Institute of Science and Technology, Ramapuram**
+
+</div>
